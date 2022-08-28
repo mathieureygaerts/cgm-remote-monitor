@@ -1,4 +1,4 @@
-FROM node:14.15.3-alpine
+FROM --platform=linux/arm64 node:14.15.3-alpine
 
 LABEL maintainer="Nightscout Contributors"
 
